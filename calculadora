@@ -16,3 +16,16 @@ def divisão(x, y):
 #Função pra subtração
 def subtração(x, y):
     return x - y
+def mostrar_historico(lista_contas):
+    if not lista_contas:
+        print("Nenhuma operação realizada ainda.")
+else:
+    print("Histórico de operações:")
+    for operacao in lista_contas:
+        print(operacao)
+
+
+def limpar_historico(lista_contas):
+    lista_contas.clear()
+
+    print("Histórico limpo.")
